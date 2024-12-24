@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "user-api"
+version = "0.1.0"
+description = ""
+authors = ["gitella404 <iamanewella@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.4"
+djangorestframework = "^3.15.2"
+django-cors-headers = "^4.6.0"
+djangorestframework-simplejwt = "^5.3.1"
+django-filter = "^24.3"
+drf-yasg = "^1.21.8"
+django-environ = "^0.11.2"
+celery = "^5.4.0"
+django-debug-toolbar = "^4.4.6"
+gunicorn = "^23.0.0"
+pillow = "^11.0.0"
+psycopg2 = "^2.9.10"
+django-import-export = "^4.3.3"
+django-rest-swagger = "^2.2.0"
+setuptools = "^75.6.0"
+drf-spectacular = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
